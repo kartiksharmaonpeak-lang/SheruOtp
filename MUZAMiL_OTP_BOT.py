@@ -253,12 +253,12 @@ def B(text, cb=None, url=None, style=None, copy=None, icon=None):
 
 
 # ==================== CONFIG ====================
-BOT_TOKEN = "APNA_BOT_TOKEN_DAAL"
-OWNER_ID = OWNER_ID_DAAL_APNA
-OTP_GROUP_ID = JIS_GROUP_MAI_OTP_AYE_USKI_ID
+BOT_TOKEN = "9264639954:AAE78shP5futRLgfpSvQzJU0wKM5HLYI_XQ"
+OWNER_ID = 8962273150
+OTP_GROUP_ID = -1003914635353
 API_URL = "https://numberpanel.tech/api/otp?count=200"
 POLL_INTERVAL = 10
-DB_PATH = "APNA_DB_LAGAO"
+DB_PATH = "botfile.db"
 NUMBERS_CHANNEL = "https://t.me/MuzamilxBotz"
 OTP_GROUP_LINK = "https://t.me/muzamilxotps"
 DEFAULT_NUMBERS_PER_USER = 3
