@@ -535,22 +535,22 @@ print("✅ SIGTERM/SIGINT handler registered — safe shutdown backup enabled")
 # ==================== BOT CONFIG ====================
 # ⚠️ SECURITY FIX: Tokens environment variables se load ho rahe hain
 # Render/Heroku/VPS par environment variables mein set karo:
-#   BOT_TOKEN = "8872936013:AAFfjeSMwldDBAUn4UwiRrwcjGiU0yO8Y3c"
-#   OWNER_ID  = "7981894574"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7957702848:AAG8deFAc_T9qhSztPuxq5Lp8IM6XUxe4fo")
+#   BOT_TOKEN = "9061607513:AAHbCzFgCqZc33PBDztRFkq14u2jRwbXDEo"
+#   OWNER_ID  = "9258546011"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "9061607513:AAHbCzFgCqZc33PBDztRFkq14u2jRwbXDEo")
 if not BOT_TOKEN:
     raise RuntimeError("❌ BOT_TOKEN environment variable set nahi hai! Render > Environment mein BOT_TOKEN add karo.")
 
 # ✅ OWNER_ID — hardcoded (env se override bhi ho sakta hai)
-_owner_id_raw = os.environ.get("OWNER_ID", "6031637959").strip()
+_owner_id_raw = os.environ.get("OWNER_ID", "9258546011").strip()
 try:
     OWNER_ID = int(_owner_id_raw)
 except ValueError:
-    OWNER_ID = 6031637959
+    OWNER_ID = 9258546011
 
 # Database and Logs Channel
-DB_CHANNEL = os.environ.get("DB_CHANNEL", "-1003930518361").strip()
-LOGS_CHANNEL = os.environ.get("LOGS_CHANNEL", "-1003930518361").strip()
+DB_CHANNEL = os.environ.get("DB_CHANNEL", "-1005914195766").strip()
+LOGS_CHANNEL = os.environ.get("LOGS_CHANNEL", "-1005914195766").strip()
 if not DB_CHANNEL:
     print("⚠️ WARNING: DB_CHANNEL env var set nahi — DB logs disabled. Render > Environment mein DB_CHANNEL add karo.")
 if not LOGS_CHANNEL:
@@ -563,7 +563,7 @@ DAILY_CREDITS = 1
 REFERRAL_CREDITS = 1
 
 # Bot Credit Line (using special bold)
-BOT_CREDIT = "⚡ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ : @Raizz_Baby28"
+BOT_CREDIT = "⚡ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ : @imaakartik"
 
 # ── Feature Credit Costs (Admin can change at runtime) ──
 # Feature costs loaded from DB, fallback to defaults
