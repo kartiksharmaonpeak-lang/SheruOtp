@@ -2,7 +2,7 @@ import logging, html, requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 
-BOT_TOKEN = "apna-token-lga-ke-run karna nhi to tum bologe kam nhi kar raha hai"
+BOT_TOKEN = "9194180698:AAGUO-WyLm6dPwf54JVSLStku42eFgx0Mzk"
 API_URL = "https://dg-drift-apis.onrender.com/upi-info"
 API_KEY = "dg"
 
